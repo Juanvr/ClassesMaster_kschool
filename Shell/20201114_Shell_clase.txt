@@ -1,0 +1,426 @@
+ls
+cd Documents
+ls
+cd ..
+ls
+cd dsc
+cd books
+ls
+echo $SHELL
+echo $TERM
+whoami
+echo $HOST
+echo $USER
+printenv
+clear
+printenv HOST
+echo '$HOST'
+echo date
+date
+echo $(echo date)
+echo $(echo $(date))
+echo $(today  $(date))
+echo today $(date)
+clear
+echo "adsidiodfs\
+"
+echo "hello \
+asdfalgo"
+echo "hello \\
+asdfalgo"
+clear
+echo algo
+cls
+clear
+cat /etc/os-release
+clear
+cd data
+ls
+cd D
+cd Data/shell
+ls
+cat Text_example.txt
+clear
+cat Text_example.txt Text_example.txt Text_example.txt
+cat -help
+help cat
+cat help
+clear
+cat -n Text_example.txt
+cat -h
+cat --help
+pwd
+echo $PWD
+cd ~
+cd -
+clear
+ls --help
+ls -a
+cd ~
+ls
+ls -a
+ls -l
+ls -1
+ls -s
+ls
+ls -1 -s
+ls --help
+ls -2
+ls -1
+ls -n
+ls shared
+cd shared
+ls
+cd ..
+ls books
+ls -a
+ls -la
+ls -s
+ls -S
+ls -lS
+ls -Sl
+ls -Sr
+ls -aSr
+ls -laSr
+ls -laS
+ls -lat
+chmod 777 .history
+ls -lat
+chmod 755 .history
+ls -lat
+chmod 600 .history
+ls -lat
+clear
+mkdir heyç
+ls
+rm heyç
+rm -r heyç
+mkdir hey
+mkdir hey/a/o
+mkdir -p  hey/a/o
+ls -l
+cd hey
+touch Downloads
+cd hey
+ls -l
+cd .
+cd ..
+ls -l
+touch --help
+touch holiwapi
+ls
+cp holiwapi hey
+mv holiwapi hey/a
+ls
+rm -r hey
+ls
+clar
+clera
+clear
+mkdir first_dir
+cd first_dir
+touch text_file.txt
+ls -l
+chmod --help
+chmod -a text_file.txt 666
+chmod 666 text_file.txt
+ls -aç
+ls -a
+ls -l
+chmod 111 text_file.txt
+ls -l
+chmod 222 text_file.txt
+ls -l
+chmod 333 text_file.txt
+ls -l
+chmod 444 text_file.txt
+ls -l
+chmod 777 text_file.txt
+ls -l
+chmod 612 text_file.txt
+ls -l
+mkdir sub1 sub2 text_file
+ls
+cp text_file sub2
+cp text_file.txt sub2
+ls
+cd sub2
+rm text_file.txt
+cd ..
+cp text_file.txt sub1
+mv text_file.txt sub2/text_file.txt.2
+cd sub2
+ls
+cd ..
+cp -r sub1 sub3
+ls
+cd sub3
+ls
+cp -r sub1 sub3/sub1
+cp -r ./sub1 sub3
+ls
+cd ..
+cp -r sub1 sub3
+cp -r ./sub1 sub3
+cd sub3
+ls
+cd -
+mv sub2/text_file.txt.2 sub2/text_file.txt_backup
+cd sub2
+ls
+mv text_file.txt_backup ../.text_file.txt_backup
+cd ..
+ls
+ls -a
+rm -r sub2
+ls
+cd sub3
+ls
+touch a.txt
+mv a.txt text_file.txt
+ls
+touch a.txt
+ls -l
+chmod 665 a.txt
+ls -l
+echo algoalgoalgoalgo
+firefox
+git --help
+git config --global user.name "Juan VelÃ�zquez"
+git config --global user.email "jvelazquezromera@gmail.com"
+cat ~/.gitconfig
+cd ~
+git clone https://github.com/Juanvr/kschool-master-26.git
+ls
+cd kschool-master-26
+ls -a
+touch chachi_file
+git status
+ls
+vim chachi_file
+cat chachi_file
+git status
+git add chachi_file
+git status
+git commit
+git commit -m "Primer push"
+git push
+ls
+vim chachi_file
+cat chachi_file
+git diff
+ls
+cd ..
+ls
+cd ..
+ls
+cd cdrom
+ls
+cd ..
+cd ~
+ls
+cd Desktop
+ls
+cd ..
+cd /
+ls
+cd media
+ls
+cd sf_Carpeta_compartida_VM
+ls
+cd dsc
+ls
+cd VBox_GAs_6.1.16
+ls
+sudo sh ./VBoxLinuxAdditions.run
+cd &
+ls
+cd /
+cd media
+ls
+ls -a
+ls -l
+sudo adduser $USER vboxsf
+ls
+rm /r first_dir
+rm -r first_dir
+ls
+cd kschool-master-26
+ls
+cd ..
+mkdir Repos
+mv -r kschool-master-26/ Repos
+mv  kschool-master-26/ Repos
+ls
+cd Repos
+ls
+cd re
+cd kschool-master-26
+ls
+gedit README.md
+git status
+ls
+exit
+cd Repos
+cd kschool-master-26
+ll
+ls -l
+git status
+git add README.md
+git status
+git commit -m "Segundo commit"
+git log
+git status
+ls -1
+cvlear
+clear
+ls
+cd ..
+ls
+git init master_from_local
+ll
+cd master_from_local
+ll
+ll -a
+touch first_idea.txt
+ls
+git status
+git add first_idea.txt
+git status
+git commit -m "Primera idea"
+git status
+touch second_idea.txt
+gedit second_idea.txt
+git status
+git add .
+git commit -m "Segunda idea\
+"
+git status
+git log
+git status
+git remote add origin https://github.com/Juanvr/kschool_example_my_ideas.git
+git status
+git fetch
+git sttus
+git status
+git branch -M main
+git push -u origin main
+git status
+clear
+cd ..
+ls -r
+cd ..
+ls -r
+touch algo
+ls -r
+rm algo
+ls
+ls -R
+cd Repos
+ls
+cd master_from_local
+git diff
+git log
+git fetch
+git status
+man cp
+man mv
+man bash
+man cp
+cp --help
+clear
+cd ..
+ls
+cd Data
+ls
+cd airline_tickets
+ls
+less coupon150720.csv
+less -N coupon150720.csv
+less -N -S coupon150720.csv
+l
+type l
+type $USER
+type user
+type USER
+type cd
+less /.zshrc
+cd ~
+less .zshr
+less .zshrc
+cd Data
+cd shell
+head Finn.txt
+head -5 Finn.txt
+head -n 5 Finn.txt
+tail Finn.txt 
+tail -100 Finn.txt 
+gedit 
+gedit Finn.txt
+tail -n +5 Finn.txt
+tail -n -5 Finn.txt
+tail -n 5 Finn.txt
+echo "HELP MEEEE" | wc
+cat Text_example.txt | head | wc
+cat Text_example.txt | wc > salida
+cat salida
+cd ..
+ls
+file README.md
+file opentraveldata
+cd shell
+ls
+clear
+log history
+loh
+log
+history
+ls -S
+ls
+rm salida
+cd ..
+ls
+cd opentraveldata
+ls
+ls -S
+ll -S
+l
+l | head -1
+ls -S
+ls -S | head -1
+ls -S | head -1 > largest_file.txt
+ls
+cat largest_file.txt
+ls
+rm largest_file.txt
+cd ..
+cd shell
+ls
+head 5 Finn.txt
+head 5 Finn.txt | wc -w
+head Finn.txt | wc -w
+head -5 Finn.txt | wc -w
+ls
+head -3 Text_example.txt
+head -3 -N Text_example.txt
+cat -N Text_example.txt | head -3
+head -3 -n Text_example.txt
+cat -n Text_example.txt | head -3
+history
+cat ~/.history
+date
+echo "sÃ�b nov 14 11:42:22 CET 2020"
+cat ~/.history > history_Clase1.txt
+ls
+mv history_Clase1.txt /media/sf_Carpeta_compartida_VM
+less ~/.zshrc
+history
+cd Repos
+git init ClasesMaster
+cd ClasesMaster
+mkdir Shell
+mkdir Python
+mkdir Challenge
+cd Shell
+cat ~/.history
+cat ~/.history > 20201114_Shell_clase.txt
