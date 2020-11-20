@@ -1,0 +1,803 @@
+ls
+cd Documents
+ls
+cd ..
+ls
+cd dsc
+cd books
+ls
+echo $SHELL
+echo $TERM
+whoami
+echo $HOST
+echo $USER
+printenv
+clear
+printenv HOST
+echo '$HOST'
+echo date
+date
+echo $(echo date)
+echo $(echo $(date))
+echo $(today  $(date))
+echo today $(date)
+clear
+echo "adsidiodfs\
+"
+echo "hello \
+asdfalgo"
+echo "hello \\
+asdfalgo"
+clear
+echo algo
+cls
+clear
+cat /etc/os-release
+clear
+cd data
+ls
+cd D
+cd Data/shell
+ls
+cat Text_example.txt
+clear
+cat Text_example.txt Text_example.txt Text_example.txt
+cat -help
+help cat
+cat help
+clear
+cat -n Text_example.txt
+cat -h
+cat --help
+pwd
+echo $PWD
+cd ~
+cd -
+clear
+ls --help
+ls -a
+cd ~
+ls
+ls -a
+ls -l
+ls -1
+ls -s
+ls
+ls -1 -s
+ls --help
+ls -2
+ls -1
+ls -n
+ls shared
+cd shared
+ls
+cd ..
+ls books
+ls -a
+ls -la
+ls -s
+ls -S
+ls -lS
+ls -Sl
+ls -Sr
+ls -aSr
+ls -laSr
+ls -laS
+ls -lat
+chmod 777 .history
+ls -lat
+chmod 755 .history
+ls -lat
+chmod 600 .history
+ls -lat
+clear
+mkdir heyç
+ls
+rm heyç
+rm -r heyç
+mkdir hey
+mkdir hey/a/o
+mkdir -p  hey/a/o
+ls -l
+cd hey
+touch Downloads
+cd hey
+ls -l
+cd .
+cd ..
+ls -l
+touch --help
+touch holiwapi
+ls
+cp holiwapi hey
+mv holiwapi hey/a
+ls
+rm -r hey
+ls
+clar
+clera
+clear
+mkdir first_dir
+cd first_dir
+touch text_file.txt
+ls -l
+chmod --help
+chmod -a text_file.txt 666
+chmod 666 text_file.txt
+ls -aç
+ls -a
+ls -l
+chmod 111 text_file.txt
+ls -l
+chmod 222 text_file.txt
+ls -l
+chmod 333 text_file.txt
+ls -l
+chmod 444 text_file.txt
+ls -l
+chmod 777 text_file.txt
+ls -l
+chmod 612 text_file.txt
+ls -l
+mkdir sub1 sub2 text_file
+ls
+cp text_file sub2
+cp text_file.txt sub2
+ls
+cd sub2
+rm text_file.txt
+cd ..
+cp text_file.txt sub1
+mv text_file.txt sub2/text_file.txt.2
+cd sub2
+ls
+cd ..
+cp -r sub1 sub3
+ls
+cd sub3
+ls
+cp -r sub1 sub3/sub1
+cp -r ./sub1 sub3
+ls
+cd ..
+cp -r sub1 sub3
+cp -r ./sub1 sub3
+cd sub3
+ls
+cd -
+mv sub2/text_file.txt.2 sub2/text_file.txt_backup
+cd sub2
+ls
+mv text_file.txt_backup ../.text_file.txt_backup
+cd ..
+ls
+ls -a
+rm -r sub2
+ls
+cd sub3
+ls
+touch a.txt
+mv a.txt text_file.txt
+ls
+touch a.txt
+ls -l
+chmod 665 a.txt
+ls -l
+echo algoalgoalgoalgo
+firefox
+git --help
+git config --global user.name "Juan VelÃ�zquez"
+git config --global user.email "jvelazquezromera@gmail.com"
+cat ~/.gitconfig
+cd ~
+git clone https://github.com/Juanvr/kschool-master-26.git
+ls
+cd kschool-master-26
+ls -a
+touch chachi_file
+git status
+ls
+vim chachi_file
+cat chachi_file
+git status
+git add chachi_file
+git status
+git commit
+git commit -m "Primer push"
+git push
+ls
+vim chachi_file
+cat chachi_file
+git diff
+ls
+cd ..
+ls
+cd ..
+ls
+cd cdrom
+ls
+cd ..
+cd ~
+ls
+cd Desktop
+ls
+cd ..
+cd /
+ls
+cd media
+ls
+cd sf_Carpeta_compartida_VM
+ls
+cd dsc
+ls
+cd VBox_GAs_6.1.16
+ls
+sudo sh ./VBoxLinuxAdditions.run
+cd &
+ls
+cd /
+cd media
+ls
+ls -a
+ls -l
+sudo adduser $USER vboxsf
+ls
+rm /r first_dir
+rm -r first_dir
+ls
+cd kschool-master-26
+ls
+cd ..
+mkdir Repos
+mv -r kschool-master-26/ Repos
+mv  kschool-master-26/ Repos
+ls
+cd Repos
+ls
+cd re
+cd kschool-master-26
+ls
+gedit README.md
+git status
+ls
+exit
+cd Repos
+cd kschool-master-26
+ll
+ls -l
+git status
+git add README.md
+git status
+git commit -m "Segundo commit"
+git log
+git status
+ls -1
+cvlear
+clear
+ls
+cd ..
+ls
+git init master_from_local
+ll
+cd master_from_local
+ll
+ll -a
+touch first_idea.txt
+ls
+git status
+git add first_idea.txt
+git status
+git commit -m "Primera idea"
+git status
+touch second_idea.txt
+gedit second_idea.txt
+git status
+git add .
+git commit -m "Segunda idea\
+"
+git status
+git log
+git status
+git remote add origin https://github.com/Juanvr/kschool_example_my_ideas.git
+git status
+git fetch
+git sttus
+git status
+git branch -M main
+git push -u origin main
+git status
+clear
+cd ..
+ls -r
+cd ..
+ls -r
+touch algo
+ls -r
+rm algo
+ls
+ls -R
+cd Repos
+ls
+cd master_from_local
+git diff
+git log
+git fetch
+git status
+man cp
+man mv
+man bash
+man cp
+cp --help
+clear
+cd ..
+ls
+cd Data
+ls
+cd airline_tickets
+ls
+less coupon150720.csv
+less -N coupon150720.csv
+less -N -S coupon150720.csv
+l
+type l
+type $USER
+type user
+type USER
+type cd
+less /.zshrc
+cd ~
+less .zshr
+less .zshrc
+cd Data
+cd shell
+head Finn.txt
+head -5 Finn.txt
+head -n 5 Finn.txt
+tail Finn.txt 
+tail -100 Finn.txt 
+gedit 
+gedit Finn.txt
+tail -n +5 Finn.txt
+tail -n -5 Finn.txt
+tail -n 5 Finn.txt
+echo "HELP MEEEE" | wc
+cat Text_example.txt | head | wc
+cat Text_example.txt | wc > salida
+cat salida
+cd ..
+ls
+file README.md
+file opentraveldata
+cd shell
+ls
+clear
+log history
+loh
+log
+history
+ls -S
+ls
+rm salida
+cd ..
+ls
+cd opentraveldata
+ls
+ls -S
+ll -S
+l
+l | head -1
+ls -S
+ls -S | head -1
+ls -S | head -1 > largest_file.txt
+ls
+cat largest_file.txt
+ls
+rm largest_file.txt
+cd ..
+cd shell
+ls
+head 5 Finn.txt
+head 5 Finn.txt | wc -w
+head Finn.txt | wc -w
+head -5 Finn.txt | wc -w
+ls
+head -3 Text_example.txt
+head -3 -N Text_example.txt
+cat -N Text_example.txt | head -3
+head -3 -n Text_example.txt
+cat -n Text_example.txt | head -3
+history
+cat ~/.history
+date
+echo "sÃ�b nov 14 11:42:22 CET 2020"
+cat ~/.history > history_Clase1.txt
+ls
+mv history_Clase1.txt /media/sf_Carpeta_compartida_VM
+less ~/.zshrc
+history
+cd Repos
+git init ClasesMaster
+cd ClasesMaster
+mkdir Shell
+mkdir Python
+mkdir Challenge
+cd Shell
+cat ~/.history
+cat ~/.history > 20201114_Shell_clase.txt
+ls
+cat 20201114_Shell_clase.txt
+gedit 20201114_Shell_clase.txt
+git add 20201114_Shell_clase.txt
+l
+ls
+git status
+git commit -m "linux commands and git"
+git status
+cd ..
+git remote add origin https://github.com/Juanvr/ClassesMaster_kschool.git\
+git branch -M main\
+git push -u origin main
+clear
+find | wc -l
+cd ~
+find | wc -l
+find | wc 
+find . -name "text_file*"
+find . -type f -maxdepth 5 -mindepth 2 -name "text_file*"
+find . -maxdepth 5 -mindepth 2 -type f -iname "text_file*"
+find -type f -perm 777
+sudo find -type f -perm 777
+ls
+find -empty
+sudo find -empty | wc
+sudo find -size 0 | wc
+sudo find -size 0 | echo
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" \;
+echo this that
+echo this ; echo that
+echo this \;
+echo ;
+echo this \; echo that
+sudo find -type f -iname "text_file*" 
+ls -l ./anaconda3/lib/python3.7/distutils/text_file.py
+sudo find -type f -iname "text_file*" -exec ls -l {{{ \;
+sudo find -type f -iname "text_file*" -exec ls -l {} \;
+sudo find -type f -iname "text_file*" -exec ls -l {} \; -exe head -2 {} \;
+sudo find -type f -iname "text_file*" -exec ls -l {} \; -exec head -2 {} \;
+sudo find -type f -iname "text_file*" -ok ls -l {} \; -exec head -2 {} \;
+sudo find -type f -iname "text_file*" -exec head -2 {} | wc \;
+sudo find -type f -iname "text_file*" -exec head -2 {} \| wc \;
+sudo find -type f -iname "text_file*" -exec "head -2 {} \| wc \;"
+sudo find -type f -iname "text_file*" -exec head -2 {} | wc" \;
+sudo find -type f -iname "text_file*" -exec "head -2 {} | wc" \;
+basch -c "echo This"
+bash -c "echo This"
+sudo find -type f -iname "text_file*" -exec bash -c "head -2 {} | wc" \;
+cd books
+find -name Machine*
+find -name *Hackers*
+find -iname mahcine
+find -iname machine
+find -iname machine*
+find -iname Machine*
+find -iname "*Machine*"
+cd ..
+find -mmin -60
+sudo find -mmin -60
+find -empty ! -perm 777
+find -empty ! -perm 777 -ok chmod 777 {}
+find -empty ! -perm 777 -ok ls {}
+find --help
+find -empty ! -perm 777 -ok echo {}
+find . -empty ! -perm 777 -ok echo {}
+find . -empty ! -perm 777 -ok "echo {}"
+history
+man find
+find . -empty ! -perm 777 -ok echo {} \;
+find -empty ! -perm 777 -ok chmod 777 {} \;
+find ~/Data
+find ~/Data -d
+find ~/Data -maxdepth 1
+find ~/Data -maxdepth 1 -exec bash -c "ls -lS | head -4 | tail -3 "
+find ~/Data -maxdepth 1 -exec bash -c "ls -lS | head -4 | tail -3 " \;
+find ~/Data -maxdepth 1 -exec bash -c "ls -lS {} | head -4 | tail -3 " \;
+find ~/Data -maxdepth 1 -exec echo {} \; -exec bash -c "ls -lS {} | head -4 | tail -3 " \;
+find ~/Data -maxdepth 1 -type d -exec echo {} \; -exec bash -c "ls -lS {} | head -4 | tail -3 " \;
+find ~/Data -maxdepth 1 -type d -exec echo {} \; -exec bash -c "ls -lS {} | head -4 | tail +1 " \;
+cd Repos
+cd Shell
+cd ClasesMaster
+cd Shell
+git remote add origin https://github.com/Juanvr/ClassesMaster_kschool.git\
+git branch -M main\
+git push -u origin main
+ls
+mv 20201114_Shell_clase.txt 20201113_Shell_clase.txt
+cat ~/.history > 20201114_Shell_clase.txt
+git status
+git add .
+git status
+git commit -m "Commit final de clase 14 noviembre"
+git push
+cd books
+find -iname "*Machine*"
+cd ~
+cd books
+find -iname "*Machine*"
+exit
+ls
+ls /l
+ls -l
+cd books
+ls
+ls -l
+cd ..
+mkdir pruebas
+cd pruebas
+ls -l ../books
+ls -l ../books > books
+cat books
+gedit books
+ls -l
+ls -l ../books | sort +4n
+ls -l ../books | sort +4
+ls -l ../books | sort +7
+echo $TERM
+printenv
+cd ..
+ls
+ls -a
+cat .bashrc
+less .bashrc
+ls -1
+ls -2
+ls -l
+ls --help
+ls -n
+ls -l
+ls -x
+ls -xl
+alias
+cd ..
+cd repo
+cd ~
+ls
+cd Repos
+ls
+cd ClasesMaster
+git remote show origin
+git remote -v
+git remote
+git remote --help
+history --help
+man history
+history -i
+histori -20
+history -20
+history -f
+cd ~
+cd pruebas
+ls
+tail books -f
+cd pr
+gedit books
+ls
+cat books
+seq 1 10
+seq 1 2 10
+seq 1 2 10 >> uniq_example.txt
+seq 1 10 >> uniq_example.txt
+cat uniq_example.txt
+sort uniq_example.txt
+sort -n
+sort -n uniq_example.txt
+sort -n uniq_example.txt | uniq
+sort -uniq_example.txt
+sort -u uniq_example.txt
+cd D
+cd Data
+cd opentraveldata
+ls
+less optd_airlines.csv
+less ref_airline_nb_of_flights.csv
+less optd_aircraft.csv
+sort -t "^" -k 6,6 optd_aircraft.csv| head
+sort -t "^" -k 6r,6 optd_aircraft.csv| head
+sort -t "^" -k 6r,6 -k 4r,4 optd_aircraft.csv| head
+head optd_aircraft.csv
+sort -t "^" -k 2,2 -u optd_aircraft.csv
+sort -t "^" -k 2,2 -u optd_aircraft.csv | head
+head optd_aircraft.csv
+sort -t "^" -k 2,2 -u optd_aircraft.csv | head
+seq 15> 20lines.txt; seq 9 1 20 >> 20lines.txt; echo"20\n20" >> 20lines.txt;
+seq 15> 20lines.txt; seq 9 1 20 >> 20lines.txt; echo "20\n20" >> 20lines.txt;
+ls
+cat 20lines.txt
+sort 20lines.txt
+sort -nu 20lines.txt
+sort -d 20lines.txt
+uniq -d 20lines.txt
+cat 20lines.txt
+sort 20lines.txt
+sort -n 20lines.txt | uniq -d
+sort -n 20lines.txt | uniq -dc
+sort -n 20lines.txt | uniq -dc | sort -n 
+sort -n 20lines.txt | uniq -dc | sort -n r
+sort -n 20lines.txt | uniq -dc | sort -nr
+sort -n 20lines.txt | uniq -dc | sort -nr | head 1
+man head
+sort -n 20lines.txt | uniq -dc | sort -nr | head -n 1
+sort -n 20lines.txt | uniq -dc | sort -t " " -k 6r,6 | head -n 1
+sort -n 20lines.txt | uniq -dc | sort -t " " -k 6r,6
+sort -n 20lines.txt | uniq -dc
+sort -n 20lines.txt | uniq -dc | sort -t " " -k 6r,6
+sort -n 20lines.txt | uniq -dc | sort -t " " -k 7r,7
+sort -n 20lines.txt | uniq -dc | sort -t " " -k 1r,1
+sort -n 20lines.txt | uniq -dc | sort -k 1r,1
+ls
+cd ..
+cd opentraveldata
+head optd_aircraft.csv
+sort -t "^" 7,7
+sort -t "^" -k 7,7
+sort -t "^" -k 7,7 optd_aircraft.csv
+sort -t "^" -k 7,7 optd_aircraft.csv | head
+sort -t "^" -k 7r,7 optd_aircraft.csv | head
+sort -t "^" -k 7rn,7 optd_aircraft.csv | head
+sort -t "^" -k 7rn,7 optd_aircraft.csv | head -n 1
+cut -d "^" -f 1, 3-5 optd_aircraft.csv| head
+cut -d "^" -f 1,3-5 optd_aircraft.csv| head
+cut -d "^" -f 1,3-5 --output-delimiter="," optd_aircraft.csv
+cut -d "^" -f 1,3-5 --output-delimiter="OMG" optd_aircraft.csv
+seq 10
+seq 10 > numbers
+cat numbers numbers
+paste numbers numbers
+ls
+paste -s numbers
+paste -s -d "^" numbers
+ls
+rm -r 20lines.txt
+ls
+rm -r numbers
+cd ..
+cd shell
+ls
+cat Text_example.txt
+seq 10
+seq 10 >> numbers
+ls
+cat numbers
+paste numbers Text_example.txt
+wc Text_example.txt
+wc < Text_example.txt
+wc <(cat Text_example.txt)
+paste<(seq 15) <(seq 10)
+paste <(seq 15) <(seq 10)
+paste <(seq 10 20) <(cat Text_example.txt)
+paste <`seq 10 20` <(cat Text_example.txt)
+paste <$(seq 10 20) <(cat Text_example.txt)
+cd ..
+cd opentraveldata
+head -1 optd_aircraft.csv
+head -1 optd_aircraft.csv | tr "^" "Q"
+head -1 optd_aircraft.csv | tr "^" "\n"
+paste <($(seq 10 20)) <(cat Text_example.txt)
+paste <($(seq "10" "20")) <(cat Text_example.txt)
+echo "master data science" | tr as sa
+echo "master data science" | tr as
+echo "master data science" | tr a s
+echo "master data science" | tr a se
+echo "master data science" | tr "as" "se"
+head optd_aircraft.csv
+echo "1. Change delimiter"
+tr "^" "," < optd_aircraft.csv
+head optd_por_public.csv -1
+head -1 optd_por_public.csv 
+head -1 optd_por_public.csv | tr "^" "\n"
+head -1 optd_por_public.csv | tr "^" "\n" | wc
+head -1 optd_por_public.csv | tr "^" "\n" | wc -l
+paste <(head -1 optd_por_public.csv | tr "^" "\n" | wc -l)
+paste <(head -1 optd_por_public.csv | tr "^" "\n")
+paste <(head -1 optd_por_public.csv | tr "^" "\n") <(seq 109
+paste <(head -1 optd_por_public.csv | tr "^" "\n") <(seq 10)
+paste <(head -1 optd_por_public.csv | tr "^" "\n") <(head -1 optd_por_public.csv | tr "^" "\n")
+seq <10
+echo 10 | seq
+seq < echo 10
+seq $(echo 10)
+paste <(head -1 optd_por_public.csv | tr "^" "\n") <( seq $(head -1 optd_por_public.csv | tr "^" "\n"))
+paste <(head -1 optd_por_public.csv | tr "^" "\n") <( seq $(head -1 optd_por_public.csv | tr "^" "\n" | wc -l))
+ls
+head optd_airlines.csv
+paste <(head -1 optd_airlines.csv | tr "^" "\n") <( seq $(head -1 optd_airlines.csv | tr "^" "\n" | wc -l))
+cut 
+cut -d "^" -f 10 optd_airlines.csv
+cut -d "^" -f 10 optd_airlines.csv | sort
+cut -d "^" -f 10 optd_airlines.csv | sort | uniq -c
+grep this Text_example.txt
+cd ..
+cd shell
+grep this Text_example.txt 
+grep -v this Text_example.txt
+grep -v -n this Text_example.txt
+grep -i this Text_example.txt
+grep -i this Text_example.txt Finn.txt
+grep -i -n this Text_example.txt Finn.txt
+grep lines Text_example.txt
+grep line Text_example.txt
+grep -w line Text_example.txt
+grep -E "T* Text_example.txt
+grep -E "T*" Text_example.txt
+grep -E "T.*" Text_example.txt
+grep -E "T*." Text_example.txt
+grep -E "T*" Text_example.txt
+grep -E "T." Text_example.txt
+grep "T*" Text_example.txt
+grep -E "^" Text_example.txt
+grep -E "^." Text_example.txt
+grep -E "$" Text_example.txt
+grep -E "\.$" Text_example.txt
+grep -E "\\.$" Text_example.txt
+grep -E "/.$" Text_example.txt
+grep -E ".$" Text_example.txt
+echo Sunday | sed ssdaysnights
+echo Sunday | sed 's/day/night/'
+sed 's/this/RONALDO/g' Text_example.txt
+cp Text_example.txt Text_example_copy.txt
+ls
+sed -i 's/this/RONALDO/g' Text_example_copy.txt
+cat Text_example_copy.txt
+seq 5 | sed -n '2p'
+seq 5 | sed '2p'
+seq 5 | sed '2\4p'
+seq 5 | sed '2\,4p'
+seq 5 | sed '2,4p'
+ls
+cat Text_example_copy.txt
+rm -r Text_example_copy.txt
+cp Text_example.txt Text_example_copy.txt
+ls
+cat Text_example_copy.txt
+sed 's/line/\n/' Text_example_copy.txt
+sed 'p' Text_example_copy.txt
+sed 'p/line/' Text_example_copy.txt
+sed '/line/p/' Text_example_copy.txt
+man sed
+sed /lines/ 
+sed /lines/ Text_example_copy.txt
+sed /lines/p Text_example_copy.txt
+sed '/lines/!p' Text_example_copy.txt
+sed '/line/!d' Text_example_copy.txt
+sed '/line/d' Text_example_copy.txt
+sed -n '/lines/!p' Text_example_copy.txt
+sed -n '/line/!p' Text_example_copy.txt
+sed 's/line/\n/' Text_example_copy.txt
+sed 's/line/\n/g' Text_example_copy.txt
+sed -n '/line/p' Text_example_copy.txt
+sed  '/line/p' Text_example_copy.txt
+sed  '/line/pg' Text_example_copy.txt
+sed  '/line/p/g' Text_example_copy.txt
+ls
+rm -r Text_example_copy.txt
+cd ..
+cd Data
+ls
+cd opentraveldata
+ls
+cd ..
+ls
+cat uniq_example.txt
+rm -r uniq_example.txt
+ls
+cd Repos
+ls
+cd ClasesMaster
+git pull
+grep ~/.history -E "git.*history"
+grep -E "git.*history" ~/.history 
+grep -E "history" ~/.history 
+ls
+cd Shell
+ls
+cat ~/.history > 20201120_Shell_clase.txt
